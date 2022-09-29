@@ -1,0 +1,22 @@
+1. Tools yang digunakan
+    Language = Javascript
+    Database = PostgreSQL
+    ORM = Sequelize
+    Framework = Express
+    Documentation = Swagger
+
+- Menggunakan javascript karena gampang untuk di implementasi, high responsive, populer dan mudah diakses
+- Tidak menggunakan microservice karena program skala kecil
+
+2. Dengan authentication & authorization dari jsonwebtoken, juga dengan menggunakan helper user agent
+
+3. --
+
+4. Menurut saya desain kurang baik, bisa dibuat lebih baik lagi apabila API terdiri dari
+    - user (utk API user)
+    - customer (utk API cust)
+    - restaurant (utk API restaurant)
+    - menu (utk API menu yang dimiliki restaurant)
+    - order (utk API pesanan)
+
+Untuk versi developed bisa di akses di https://github.com/ArieeSetiawan/binardeveloped
