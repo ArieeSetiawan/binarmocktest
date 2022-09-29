@@ -12,5 +12,8 @@
 ### For API Documentation (Swagger)run in
 - localhost:3000/docs
 
+### Program Hanya dapat diajalankan pada User Agent Iphone & Android
+- Untuk mematikan feature ini bisa didelete middlewares cekUserAgent pada data-routes & user-routes
+
 ### For Developed Version bisa diakses di
 https://github.com/ArieeSetiawan/binardeveloped
